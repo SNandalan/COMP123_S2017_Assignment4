@@ -5,9 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 /* Name: Sushmita Nandalan
  * Student no: 300923159
- * Date: July 27th 2017
+ * Date: July 28th 2017
  * Description: This is the class TerrestrialPlanet which is a subclass of the Planet Abstract Class. 
- * Version: 0.1 - TerrestrialPlanet class created.
+ * Version: 0.2 - Added the methods HasMoons() and Habitable() to TerrestrialPlanet class. 
  */
 namespace COMP123_S2017_Assignment4
 {
@@ -32,6 +32,26 @@ namespace COMP123_S2017_Assignment4
 		public TerrestrialPlanet(string name, double diameter, double mass, bool oxygen) : base(name, diameter, mass)
 		{
 			this._oxygen = oxygen;
+		}
+
+		//PUBLIC METHODS
+
+		/// <summary>
+		/// This is the HasMoons method.
+		/// </summary>
+		/// <returns> Returns true if the MoonCount property is greater than zero. </returns>
+		public bool HasMoons()
+		{
+			return (MoonCount > 0);
+		}
+
+		/// <summary>
+		/// This is the Habitable method.
+		/// </summary>
+		/// <returns> Returns true if the _oxygen instance variable is set to true. </returns>
+		public bool Habitable()
+		{
+			return _oxygen;
 		}
 	}
 }
