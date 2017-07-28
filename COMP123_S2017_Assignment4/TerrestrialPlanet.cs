@@ -20,6 +20,7 @@ namespace COMP123_S2017_Assignment4
 
 		private bool _oxygen;
 
+        //PUBLIC PROPERTIES
         public bool Oxygen
         {
             get
