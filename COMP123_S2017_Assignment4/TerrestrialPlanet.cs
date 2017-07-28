@@ -20,16 +20,28 @@ namespace COMP123_S2017_Assignment4
 
 		private bool _oxygen;
 
-		//PUBLIC CONSTRUCTORS
-		/// <summary>
-		/// This is the constructor for the TerrestrialPlanet class
-		/// It takes 4 arguments name (string), diameter(double), mass(double) and oxygen(bool).
-		/// </summary>
-		/// <param name="name"></param>
-		/// <param name="diameter"></param>
-		/// <param name="mass"></param>
-		/// <param name="oxygen"></param>
-		public TerrestrialPlanet(string name, double diameter, double mass, bool oxygen) : base(name, diameter, mass)
+        public bool Oxygen
+        {
+            get
+            {
+                return _oxygen;
+            }
+            set
+            {
+                _oxygen = value;
+            }
+        }
+
+        //PUBLIC CONSTRUCTORS
+        /// <summary>
+        /// This is the constructor for the TerrestrialPlanet class
+        /// It takes 4 arguments name (string), diameter(double), mass(double) and oxygen(bool).
+        /// </summary>
+        /// <param name="name"></param>
+        /// <param name="diameter"></param>
+        /// <param name="mass"></param>
+        /// <param name="oxygen"></param>
+        public TerrestrialPlanet(string name, double diameter, double mass, bool oxygen) : base(name, diameter, mass)
 		{
 			this._oxygen = oxygen;
 		}
