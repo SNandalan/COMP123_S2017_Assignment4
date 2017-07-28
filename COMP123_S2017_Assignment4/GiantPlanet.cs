@@ -5,16 +5,16 @@ using System.Text;
 using System.Threading.Tasks;
 /* Name: Sushmita Nandalan
  * Student no: 300923159
- * Date: July 27th 2017
+ * Date: July 28th 2017
  * Description: This is the class GiantPlanet which is a subclass of the Planet Abstract Class. 
- * Version: 0.2 - Added the methods HasMoons() and HasRings() to GiantPlanet class. 
+ * Version: 0.3 - Implemented IHasMoons and IHasRings interfaces 
  */
 namespace COMP123_S2017_Assignment4
 {
 	/// <summary>
 	/// This is the GiantPlanet class.
 	/// </summary>
-	class GiantPlanet : Planet
+	class GiantPlanet : Planet, IHasMoons, IHasRings
 	{
 		//PRIVATE INSTANCE VARIABLES
 

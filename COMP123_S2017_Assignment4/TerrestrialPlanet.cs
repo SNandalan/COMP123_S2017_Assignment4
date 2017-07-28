@@ -7,14 +7,14 @@ using System.Threading.Tasks;
  * Student no: 300923159
  * Date: July 28th 2017
  * Description: This is the class TerrestrialPlanet which is a subclass of the Planet Abstract Class. 
- * Version: 0.2 - Added the methods HasMoons() and Habitable() to TerrestrialPlanet class. 
+ * Version: 0.3 - Implemented IHasMoons and IHabitable interfaces 
  */
 namespace COMP123_S2017_Assignment4
 {
 	/// <summary>
 	/// This is the TerrestrialPlanet class.
 	/// </summary>
-	class TerrestrialPlanet : Planet
+	class TerrestrialPlanet : Planet, IHasMoons, IHabitable
 	{
 		//PRIVATE INSTANCE VARIABLES
 
