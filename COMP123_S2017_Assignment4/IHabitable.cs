@@ -8,6 +8,7 @@ using System.Threading.Tasks;
  * Date: July 28th 2017
  * Description: This is the IHabitable interface that is implemented by the TerrestrialPlanet class.
  * Version: 0.1 - IHabitable interface created. 
+ * Link: https://github.com/SNandalan/COMP123_S2017_Assignment4
  */
 namespace COMP123_S2017_Assignment4
 {

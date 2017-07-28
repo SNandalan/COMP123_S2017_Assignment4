@@ -8,6 +8,7 @@ using System.Threading.Tasks;
  * Date: July 28th 2017
  * Description: This is the class GiantPlanet which is a subclass of the Planet Abstract Class. 
  * Version: 0.3 - Implemented IHasMoons and IHasRings interfaces 
+ * Link: https://github.com/SNandalan/COMP123_S2017_Assignment4
  */
 namespace COMP123_S2017_Assignment4
 {

@@ -7,7 +7,8 @@ using System.Threading.Tasks;
  * Student no: 300923159
  * Date: July 28th 2017
  * Description: This is the IHasMoons interface that is implemented by the GiantPlant class and TerrestrialPlanet class.
- * Version: 0.1 - IHasMoons interface created. 
+ * Version: 0.1 - IHasMoons interface created.
+ * Link: https://github.com/SNandalan/COMP123_S2017_Assignment4 
  */
 namespace COMP123_S2017_Assignment4
 {

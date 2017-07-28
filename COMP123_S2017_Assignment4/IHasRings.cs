@@ -8,6 +8,7 @@ using System.Threading.Tasks;
  * Date: July 28th 2017
  * Description: This is the IHasRings interface that is implemented by the GiantPlant class.
  * Version: 0.1 - IHasRings interface created. 
+ * Link: https://github.com/SNandalan/COMP123_S2017_Assignment4
  */
 namespace COMP123_S2017_Assignment4
 {
