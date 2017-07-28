@@ -7,10 +7,13 @@ using System.Threading.Tasks;
  * Student no: 300923159
  * Date: July 27th 2017
  * Description: This is the class GiantPlanet which is a subclass of the Planet Abstract Class. 
- * Version: 0.1 - GiantPlanet class created, extends from planet class. 
+ * Version: 0.2 - Added the methods HasMoons() and HasRings() to GiantPlanet class. 
  */
 namespace COMP123_S2017_Assignment4
 {
+	/// <summary>
+	/// This is the GiantPlanet class.
+	/// </summary>
 	class GiantPlanet : Planet
 	{
 		//PRIVATE INSTANCE VARIABLES
@@ -30,5 +33,26 @@ namespace COMP123_S2017_Assignment4
 		{
 			this._type = type;
 		}
+
+		//PUBLIC METHODS
+
+		/// <summary>
+		/// This is the HasMoons method.
+		/// </summary>
+		/// <returns> Returns true if the MoonCount property is greater than zero. </returns>
+		public bool HasMoons()
+		{
+			return (MoonCount > 0);
+		}
+
+		/// <summary>
+		/// This is the HasRings method.
+		/// </summary>
+		/// <returns> Returns true if the RingCount property is greater than zero. </returns>
+		public bool HasRings()
+		{
+			return (RingCount > 0);
+		}
+
 	}
 }
