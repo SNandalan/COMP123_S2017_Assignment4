@@ -7,7 +7,7 @@ using System.Threading.Tasks;
  * Student no: 300923159
  * Date: July 27th 2017
  * Description: This is the abstract class Planet
- * Version: 0.1 - Planet class created
+ * Version: 0.2 - Added units to the ToString Method.
  */
 namespace COMP123_S2017_Assignment4
 {
@@ -120,7 +120,7 @@ namespace COMP123_S2017_Assignment4
 		/// <returns></returns>
 		public override string ToString()
 		{
-			return string.Format("Planet:{0}, Diameter:{1}, Mass: {2}", Name, Diameter, Mass);
+			return string.Format("Planet:{0}, Diameter:{1}km, Mass: {2}kg", Name, Diameter, Mass);
 
 		}
 	}
